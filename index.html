@@ -41,12 +41,10 @@
                       <div class="form-group">
                         <label for="juego">Qué juego quieres comprar?</label>
                         <select class="form-control" id="juego">
-                          <option valua="cod">Call of Duty</option>    
-                          <option value="fortnite">Fortnite</option>  
-                          <option value="warzone">Cod Warzone</option>  
-                          <option value="rocketleague">Rocket League</option>
-                          <option value="minecraft">Minecraft</option>
-                          <option value="lol">League of Legends</option>    
+                          <option value="cod">Call of Duty</option>    
+                          <option value="fortnite">Fortnite</option> 
+                          <option value="minecraft">Minecraft</option> 
+                          <option value="mario">Mario Bros</option>
                         </select>
                       </div>
                       <div class="form-group">
@@ -83,32 +81,25 @@
     
        }
     
-         if(juegos=="cod"){
-             alert('Debes pagar 200 USD')  
+         if(juego=="fortnite"){
+             alert('Es gratis')  
            
    
         }
-        if(juegos=="fortnite"){
-            alert('Es gratis!')
+        if(juego=="cod"){
+            alert('Debes pagar 200 USD')
         }
+        if(juego=="minecraft"){
+          alert('Debes pagar 25 USD')
+        }
+
+        if(juego=="mario"){
+          alert('Debes pagar 50 USD')
+        }
+      }
         
-        if(juegos=="warzone"){
-            alert('Hoy es gratis!')
-        }
-       
-        if(juegos=="rocketleague"){
-            alert('Debes pagar 50 USD')
-        }
         
-        if(juegos=="minecraft"){
-            alert('Debes pagar 30 USD')
-        }
-       
-        if(juegos=="lol"){
-            alert('Es gratis!')
-        }
         
-        }
 
 
                 
